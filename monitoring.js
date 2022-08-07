@@ -43,27 +43,6 @@ observableCounter.addCallback(observableResult => {
 
 // Record metrics
 
-// setInterval(() => {
-//   counter++;
-//   requestCount.add(1, attributes);
-//   upDownCounter.add(Math.random() > 0.5 ? 1 : -1, attributes);
-// }, 1000);
-
-// let countAllRequests = () => {
-//   return new Promise((resolve,reject) => {
-//   setInterval(() => {
-//     resolve({
-//     counter++;
-//     requestCount.add(1, attributes);
-//     upDownCounter.add(Math.random() > 0.5 ? 1 : -1, attributes);
-//     })
-//   }, 1000);
-//   })
-// }
-
-
-// module.exports = {countAllRequests}
-
 function countAllRequests(){
   setInterval(() => {
     counter++;
