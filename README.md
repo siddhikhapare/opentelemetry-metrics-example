@@ -37,6 +37,6 @@ To start Prometheus with your newly created configuration file, change to the di
 - ./prometheus --config.file=prometheus.yml 
 
 
-##To run application - 
+## To run application - 
 - npm run start
 
