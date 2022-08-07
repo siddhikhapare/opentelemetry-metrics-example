@@ -2,8 +2,9 @@
 
 ## Downloading and running Prometheus - 
 
-tar xvfz prometheus-*.tar.gz
-cd prometheus-*
+- tar xvfz prometheus-*.tar.gz
+
+- cd prometheus-*
 
 ## Configuring Prometheus to monitor -
 Prometheus collects metrics from targets by scraping metrics HTTP endpoints. 
