@@ -13,5 +13,5 @@ Prometheus exposes data in the same manner about itself, it can also scrape and 
 ## Starting Prometheus -
 To start Prometheus with your newly created configuration file, change to the directory containing the Prometheus binary and run:
 
-./prometheus --config.file=prometheus.yml 
+- ./prometheus --config.file=prometheus.yml 
 
