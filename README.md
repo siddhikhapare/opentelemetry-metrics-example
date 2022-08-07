@@ -25,6 +25,12 @@ scrape_configs:
       - targets: ["localhost:9090"]
 ```
 
+To assign local port 9464 used to bind the prometheus metric server.
+```
+static_configs:
+      - targets: ["localhost:9464"]
+```
+
 ## Starting Prometheus -
 To start Prometheus with your newly created configuration file, change to the directory containing the Prometheus binary and run:
 
